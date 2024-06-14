@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Pacifico;
+    color: magenta;
+    letter-spacing: .2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: radial-gradient(circle, rgba(102,145,251,1) 21%, rgba(49,10,224,1) 87%);
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 25%, rgba(0,0,0,.4) 80%);
+}
+
+header > h1 {
+    margin-left: 1rem;
+}
+header > div {
+    margin-right: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95vw;
+    height: 95vh;
+}
+
+a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.1rem;
+    text-shadow: 1px 2px 5px black;
+}
+
+a:focus {
+    color: white;
+    font-size: 1.2rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-shadow: 1px 2px 5px black;
+    font-weight: bold;
+}
+
+p {
+    padding: .5rem;
+    color: white;
+    text-shadow: 1px 2px 5px black;
+}
+
+button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:focus {
+    color:white;
+    background-color: magenta;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#home > div {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+#home > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+}
+
+#whatsDo {
+    margin-top: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+#whatsDo > div {
+    padding: 4rem;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30% 5% 30% 5%;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, .15);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#whatsDo > img {
+    margin-top: 1rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#how {
+    margin-top: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+.containerCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    gap: 1rem
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .1);
+    max-width: 350px;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px black;
+    align-items: start;
+}
+
+.card > div {
+    padding-top: .5rem;
+    background-color: white;
+    border-radius: 10px 10px 0% 0%;
+}
+
+#way {
+    margin-top: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+footer {
+    margin-top: 5rem;
+    bottom: 0px;
+    height: 15vh;
+    font-size: .7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    text-shadow: 1px 1px 5px magenta;
+}
+
+footer > span {
+    color: white;
+}

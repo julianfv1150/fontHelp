@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel= "stylesheet" type="text/css" href="./styles.css">
+        <title>Iniciando con html</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>Let's start</h1>
+            <div>
+                <a href="#home" smooth>Home</a>
+                <a href="#whatsDo">¿Qué hacemos?</a>
+                <a href="#how">¿Cómo?</a>
+                <a href="#way">El camino</a>
+            </div>
+        </header>
+
+        <section id="home">
+            <div>
+                <h2>Desarrolla front</h2>
+                <p> Ser desarrollador frontend te permite dar vida a interfaces 
+                    interactivas, creativas y funcionales, creando experiencias 
+                    de usuario memorables. La constante evolución de tecnologías 
+                    y la satisfacción de ver tu trabajo en acción son increíblemente 
+                    motivantes.</p>
+                <button 
+                    type="button" 
+                    onclick="window.open('https://www.w3schools.com/html/default.asp', '_blank')">
+                    Comienza
+                </button>
+            </div>
+            <img src="./assets/motivFront.jfif" alt="motivFront"/>
+        </section>
+
+        <section id="whatsDo">
+            <div>
+                <p>
+                    "Nos dedicamos a resolver problemas reales de las personas
+                    desarrollando interfaces interactivas y creativas"
+                </p>
+                <p>
+                    Sí, vas a estar rodeado de problemas, tómalo con calma, 
+                    amígate con ellos, eres tú quien los resuelve.
+                </p>
+            </div>
+            <img src="./assets/friendlyProgrammer.jfif" alt="friendlyProgrammer"/>
+        </section>
+
+        <section id='how'>
+            <div>
+                <h2>No hay fórmula mágica..</h2>
+                <P>Cada cual crea la suya, la que le da resultado 
+                    y la readapta continuamente a lo que esta realizando, más prácticas 
+                    más claro lo ves.</P>
+                <p>De todas formas nos basamos en tres pilares..</p>
+            </div>
+            <div class="containerCards">
+                <div class="card">
+                    <div>
+                        <img src="./assets/cards/html5.svg" alt="html"/>
+                        <span>HTML</span>
+                    </div>
+                    <p>En este pilar nos enfocamos en la estructura, como si fuesen los cimientos, 
+                        las bases de lo que vamos a crear y como va a estar organizado.</p>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="./assets/cards/css3.svg" alt="css"/><span>CSS</span>
+                    </div>
+                    <p>Acá es donde más divertido se pone, le vamos a dar color y personalidad.
+                        Igual te cuento que es con el que más te vas a enojar, conocido como el
+                        terror de todo Dev backend.
+                    </p>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="./assets/cards/js.svg" alt="js"/><span>Javascript</span>
+                    </div>
+                    <p>En este último pilar nos enfocamos en darle "vida" por así decirlo, los
+                        anteriores son conocidos por ser más estáticos, con JS vas a poder 
+                        resaltar ese efecto dinámico como si las cosas estuviesen sucediendo en
+                        tiempo real, y las acciones del usuario tuviesen causa y consecuencia.</p>
+                </div>
+            </div>
+            <h2>¿Ya estás motivado para meterle unas buenas horas?</h2>
+        </section>
+
+        <section id='way'>
+            <h2>El camino</h2>
+            <div>
+                <P>En la práctica vamos aprendiendo lo que necesitamos para avanzar.</P>
+                <P>Nos apoyamos mucho en documentación oficial y sitios de consulta.</P>
+                <p>En fin todo recurso en internet es utilizable para "aprender" código.</p>
+            </div>
+            <div class="containerCards">
+                <div>
+                    <img src="./assets/resourceMeme.jpg" alt="html"/>
+                </div>
+                <div class="memes">
+                    <p><small>¿Sabías que ChatGPT está en internet?</small></p>
+                    <img src="./assets/smartMeme.png" alt="html"/>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <span>Keep moving</span>
+            <span>
+                Las imágenes y textos de esta página fueron creados con ChatGPT y el generador de imagenes de Bing
+            </span>
+        </footer>
+    </body>
+</html>
